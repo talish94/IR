@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="SearchEngine">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/SearchEngine/medallia-word2vec-0.10.2-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/SearchEngine/RI.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

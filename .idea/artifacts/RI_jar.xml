@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RI_jar</output-path>
+    <root id="archive" name="RI.jar">
+      <element id="module-output" name="RI" />
+      <element id="library" level="project" name="RI" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/out/production/RI/medallia-word2vec-0.10.2-jar-with-dependencies.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/out/production/SearchEngine/medallia-word2vec-0.10.2-jar-with-dependencies.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/out/production/SearchEngine/RI.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Resources/medallia-word2vec-0.10.2-jar-with-dependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
