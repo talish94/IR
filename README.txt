@@ -2,13 +2,13 @@
 My Search Engine - A Search Engine Project
 ##########################################
 
-This is the first part of the Search Engine Project which is part of the Information Retrieval Course.
+This is the Search Engine Project which is part of the Information Retrieval Course.
 Through this application, you can create an inverted index - posting files and dictionaries for a given corpus.
 
 ## Setup
 The application was written in Java, so make sure Java is installed on your computer.
 
-In order to run the application, you will have to download the files "mysearchengine.jar", "json-20160810.jar", make /////////////////!!!
+In order to run the application, you will have to download the files "mysearchengine.jar", "json-20160810.jar", make 
 sure the file "json-20160810.jar" is in the same folder as the file "MySearchEngine.jar", and double click
 on "MySearchEngine.jar".
 
@@ -58,7 +58,7 @@ directory of the directory which all the posting and dictionary files are saved 
 selecting a right directory, it starts the loading process, with or without stemming (depends
 if the "Stemming" checkbox was checked or not).
 
-This process will take less than 10 to 40 seconds for a corpus with about half a million /////////////////////////// time /????
+This process will take less than 10 to 40 seconds for a corpus with about half a million 
 documents, depends on whether you checked "Stemming" or not. It will pop up an alert when
 it's done.
 
@@ -98,7 +98,7 @@ After running the application, there will be some files and directories created 
 computer, under the path that was given as input in the lower "Browse" button or the
 "Load Dictionary" button. We will now explain the structure of those files.
 
-If you were loading or indexing a corpus with stemming, a directory named "postingFilesWithStemming" ///////////////////// ???????????????
+If you were loading or indexing a corpus with stemming, a directory named "postingFilesWithStemming"
 will be created, and under it 27 files:
 1. 26 text files for each letter in the ABC - which is the posting file for all the terms in the dictionary (stemmed).
 2. "NUM.txt" - which is a posting file for all the other terms (number, %, prices, dates..)
@@ -108,10 +108,7 @@ will be created, and under it 27 files:
 1. 26 text files for each letter in the ABC - which is the posting file for all the terms in the dictionary (stemmed).
 2. "NUM.txt" - which is a posting file for all the other terms (number, %, prices, dates..)
 
-					   
-## Link to the project's repository in github:
-https://github.com/omerrauchbach/SearchEngine
-
+					  
 ## Outsource code used:
 The Porter's Stemmer: https://tartarus.org/martin/PorterStemmer/java.txt
 
